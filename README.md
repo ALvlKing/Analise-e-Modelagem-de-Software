@@ -1,9 +1,13 @@
 # Exercícios de Análise Orientada a Objetos - 01
 
 **Instituição:** Centro Universitário de João Pessoa - UNIPÊ
+
 **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
+
 **Disciplina:** Análise e Projeto de Sistemas I
+
 **Período:** P3 / 2026.1
+
 **Professor:** Ricardo Roberto de Lima
 
 ---
@@ -65,4 +69,4 @@ Para cada cenário abaixo, o objetivo é identificar as **classes**, **atribuito
 * **Cliente:** Código, nome, nascimento, endereço, telefones e profissão.
 
 ---
-*Gerado para fins acadêmicos - P3 / 2026.1*
+*Repertorio para fins acadêmicos e aprendizado - P3 / 2026.1*
