@@ -69,4 +69,4 @@ Para cada cenário abaixo, o objetivo é identificar as **classes**, **atribuito
 * **Cliente:** Código, nome, nascimento, endereço, telefones e profissão.
 
 ---
-*Repertorio para fins acadêmicos e aprendizado - P3 / 2026.1*
+*Repositorio para fins acadêmicos e aprendizado - P3 / 2026.1*
