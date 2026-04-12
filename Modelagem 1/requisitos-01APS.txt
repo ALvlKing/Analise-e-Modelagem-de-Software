@@ -1,0 +1,10 @@
+1 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR CONTA DE LUZ.
+ RF002 - GERENCIAR GASTO.
+ RF003 - LISTAR MEDIA DE CONSUMO.
+ RF005 - ARMAZENAR HISTORICO.
+
+NÃO-FUNCIONAIS
+ RNF001 - [SEGURANÇA] - O sistema deve permitir o bloqueio de células que contenham fórmulas para evitar a alteração acidental por parte dos usuários.
+ RNF002 - [USABILIDADE] - A interface da planilha deve ser intuitiva, utilizando cores distintas para destacar os meses de maior e menor consumo automaticamente (Formatação Condicional).
+ RNF003 - [CONFIABILIDADE] - O sistema deve validar a entrada de dados, impedindo que a "Data de Pagamento" seja anterior à "Data de Leitura".
