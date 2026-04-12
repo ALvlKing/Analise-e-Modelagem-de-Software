@@ -1,0 +1,11 @@
+11 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR PESSOAS.
+ RF002 - CALCULAR IDADE.
+ RF003 - REAJUSTAR SALÁRIO.
+ RF004 - PROMOVER FUNCIONARIO.
+ RF005 - GERENCIAR CONTATOS.
+
+NÃO-FUNCIONAIS
+ RNF001 - [CONFIABILIDADE] - O sistema deve validar que o campo Salário não aceite valores negativos e que a dataAdmissao não seja anterior à dataNascimento.
+ RNF002 - [DESEMPENHO] - O cálculo de reajuste salarial e a atualização de cargos devem ser processados de forma imediata no banco de dados.
+ RNF003 - [MANUTENIBILIDADE] - A arquitetura deve permitir que a lógica de "ObterIdade" seja reaproveitada ou compartilhada, já que é comum a ambas as classes.

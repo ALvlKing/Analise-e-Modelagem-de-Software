@@ -1,0 +1,11 @@
+8 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR CD.
+ RF002 - PESQUISAR POR ARTISTA.
+ RF003 - LISTAR ACERVO.
+ RF004 - EDITAR INFORMAÇÕES.
+ RF005 - EXCLUI ITEM.
+
+NÃO-FUNCIONAIS
+ RNF001 - [USABILIDADE] - A interface deve permitir a navegação rápida e busca eficiente, já que Adriano possui uma "coleção grande" e precisa de agilidade na consulta.
+ RNF002 - [CONFIABILIDADE] - O sistema deve validar o campo "Ano de Lançamento" para aceitar apenas quatro dígitos numéricos e evitar anos impossíveis (como datas futuras).
+ RNF003 - [DISPONIBILIDADE] - Os dados devem estar disponíveis para consulta offline, permitindo que Adriano verifique sua lista mesmo sem conexão.

@@ -1,0 +1,10 @@
+9 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR COLETÂNEAS.
+ RF002 - DEFINIR ESPECIFICAÇÕES.
+ RF003 - GERENCIAR FAIXAS MUSICAIS.
+ RF004 - RELATORIO POR MUSICO.
+ RF005 - LOCALIZAR MUSICA.
+
+NÃO-FUNCIONAIS
+ RNF001 - [USABILIDADE] - O cadastro de músicos em coletâneas deve permitir a seleção a partir de uma lista de músicos já cadastrados para evitar duplicidade de nomes.
+ RNF002 - [DESEMPENHO] - A geração dos relatórios de busca (por músico ou por música) deve ser rápida, mesmo com o aumento considerável do volume de dados (várias faixas por CD).

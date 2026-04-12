@@ -1,0 +1,12 @@
+10 - REQUISITOS FUNCIONAIS.
+ RF001 - AGENDAR REUNIÃO.
+ RF002 - REALOCAR REUNIÃO.
+ RF003 - CONSULTAR DISPONIBILIDADE.
+ RF004 - CADASTRAR CAPACIDADE DAS SALAS.
+ RF005 - VINCULAR DADOS DO FUNCIONARIO.
+
+NÃO-FUNCIONAIS
+ RNF001 - [CONFIABILIDADE] - O sistema deve impedir o agendamento de duas reuniões diferentes na mesma sala, na mesma data e no mesmo horário (conflito de agenda).
+ RNF002 - [USABILIDADE] - A interface deve seguir o modelo visual de grade horária (conforme a imagem), permitindo a visualização clara da ocupação das três salas simultaneamente.
+ RNF003 - [ORGANIZAÇÃO] - O sistema deve estruturar os dados de forma que cada mês seja uma entidade separada (Pasta de Trabalho), contendo as divisões por dias (Planilhas).
+ RNF004 - [DESEMPENHO] - A busca por salas livres para os Diretores deve ser processada de forma imediata, filtrando apenas os espaços vazios na faixa de horário solicitada.
