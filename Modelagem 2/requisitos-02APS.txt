@@ -1,0 +1,10 @@
+2 - REQUISITOS FUNCIONAIS.
+ RF001 - CONFIGURAR ATRIBUTOS DE TEXTO.
+ RF002 - SELECIONAR COMPONENTE DE EXIBIÇÃO.
+ RF003 - VALIDAR CORES PERMITIDAS.
+ RF004 - ARMAZENAR CONTEUDO DO TEXTO.
+ RF005 - RESETAR CONFIGURAÇÕES.
+
+NÃO-FUNCIONAIS
+ RNF001 - [CONFIABILIDADE] - O sistema deve impedir a atribuição de valores inválidos para o tamanho da letra (ex: números negativos ou zero).
+ RNF002 - [USABILIDADE] - A definição das cores deve ser simplificada para o usuário final, utilizando uma lista predefinida (Enumeração ou constante) para evitar erros de digitação.

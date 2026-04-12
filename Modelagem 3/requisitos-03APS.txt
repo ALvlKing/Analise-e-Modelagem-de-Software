@@ -1,0 +1,9 @@
+3 - REQUISITOS FUNCIONAIS.
+ RF001 - IDENTIFICAR BONECO.
+ RF002 - DEFINIR COORDENADAS INICIAIS.
+ RF003 - ALTERAR DIREÇÃO.
+ RF004 - ATUALIZAR POSIÇÃO.
+
+NÃO-FUNCIONAIS
+ RNF001 - [CONFIABILIDADE] - O sistema deve impedir que as coordenadas X e Y assumam valores negativos, caso o limite da tela seja zero.
+ RNF002 - [DESEMPENHO] - A atualização das coordenadas deve ocorrer em tempo real para garantir a fluidez do movimento visual do boneco.

@@ -1,0 +1,13 @@
+4 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR PRESCRIÇÃO.
+ RF002 - SUGERIR HORARIOS.
+ RF003 - DEFINIR PERIODO DE TRATAMENTO.
+ RF004 - GERAR PLANILHA DIARIA.
+ RF005 - REORGANIZAR HORARIOS POR ATRASO.
+
+NÃO-FUNCIONAIS
+ RNF001 - [PORTABILIDADE] - A aplicação deve ser executável em ambiente mobile, garantindo o acesso rápido em qualquer lugar.
+ RNF002 - [USABILIDADE] - O sistema deve emitir alertas sonoros ou notificações visuais nos horários definidos na planilha para garantir que o remédio não seja esquecido.
+ RNF003 - [USABILIDADE] - A interface de seleção de horários deve ser simplificada para facilitar o uso por diferentes perfis de usuários.
+ RNF004 - [DESEMPENHO] - O cálculo de reorganização da planilha de horários após um atraso deve ser processado em menos de 2 segundos.
+ RNF005 - [DISPONIBILIDADE] - A planilha de horários do dia deve estar disponível para consulta offline, caso o usuário esteja sem acesso à internet.
