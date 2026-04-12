@@ -1,0 +1,13 @@
+6 - REQUISITOS FUNCIONAIS.
+ RF001 - REGISTRAR CONSUMO.
+ RF002 - CONSULTAR PREÇOS.
+ RF003 - CALCULAR TOTAL DA COMANDA.
+ RF004 - FINALIZAR VENDA.
+ RF005 - EMITIR EXTRATO DE COMPRA.
+
+NÃO-FUNCIONAIS
+ RNF001 - [CONFIABILIDADE] - O sistema deve impedir que uma comanda seja finalizada com valor zerado caso existam itens registrados nela.
+ RNF002 - [DESEMPENHO] - A leitura da comanda e o cálculo do valor total pelo caixa não devem ultrapassar 3 segundos para evitar filas.
+ RNF003 - [SEGURANÇA] - Apenas usuários autorizados (atendentes) devem ter permissão para adicionar itens às comandas, e apenas o caixa deve ter permissão para finalizá-las.
+ RNF004 - [DISPONIBILIDADE] - O sistema deve operar em rede local para que os dados lançados pelo atendente estejam imediatamente visíveis para o terminal do caixa.
+ RNF005 - [INTEGRIDADE] - O sistema deve garantir que, se um preço de produto for alterado no cadastro geral, as comandas já abertas mantenham o preço vigente no momento do lançamento do item.

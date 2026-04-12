@@ -1,0 +1,12 @@
+7 - REQUISITOS FUNCIONAIS.
+ RF001 - CADASTRAR PRODUTO.
+ RF002 - DEFINIR PREVISÃO MENSAL.
+ RF003 - AJUSTAR QUANTIDADE DE COMPRA.
+ RF004 - ATUALIZAR PREÇO ESTIMADO.
+ RF005 - CALCULAR TOTAL ESTIMADO.
+
+NÃO-FUNCIONAIS
+ RNF001 - [USABILIDADE] - A planilha deve utilizar cores ou alertas visuais para destacar produtos onde a "Quantidade Efetiva" for muito superior à "Quantidade Prevista".
+ RNF002 - [DESEMPENHO] - O sistema deve garantir que o cálculo do total seja atualizado automaticamente assim que o "Preço Estimado" ou a "Quantidade Efetiva" forem alterados.
+ RNF003 - [MANUTENIBILIDADE] - A estrutura da planilha deve ser simples o suficiente para que possa adicionar novos produtos sem quebrar as fórmulas de soma total.
+ RNF004 - [INTEGRIDADE] - O sistema deve permitir apenas valores numéricos positivos nos campos de quantidade e preço.
